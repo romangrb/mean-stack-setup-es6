@@ -1,32 +1,24 @@
-import { default as controllersModuleName } from './Controllers/bookShelf.controllers';
-import { default as servicesModuleName } from './bookShelf.services';
-import { default as directivesModuleName } from './bookShelf.directives';
-
-var moduleName = 'bookShelf';
+import { default as controllersModuleName } from './controllers/app_controllers';
 
 function config($routeProvider){
   $routeProvider
     .when('/',{
       templateUrl:'templates/home.html',
-      controller:'bookShelf.homeController',
-      controllerAs:'vm'
-    })
-    .when('/addBook',{
-      templateUrl:'templates/addBook.html',
-      controller:'bookShelf.addBookController',
-      controllerAs:'vm'
-    })
-    .when('/archive', {
-      templateUrl:'templates/archive.html',
-      controller:'bookShelf.archiveController',
-      controllerAs:'vm'
+      controller:'meanEs6App.homeController',
+      controllerAs:'homeVm'
     })
     .otherwise({redirectTo:'/'});
 }
 
 config.$inject = ['$routeProvider'];
 
-var app = angular.module(moduleName, ['ngRoute','ngMessages', servicesModuleName, controllersModuleName, directivesModuleName])
-  .config(config);
+var moduleName = 'meanEs6App';
+
+angular
+    .module(moduleName, [
+        'ngRoute',
+        controllersModuleName
+    ])
+    .config(config);
 
 export default moduleName;

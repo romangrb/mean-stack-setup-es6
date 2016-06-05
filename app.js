@@ -9,7 +9,7 @@ var express = require('express'),
   app.use(express.static('.'));
   
   app.get('/', function (request, response) {
-      response.sendfile('index.html');
+    response.sendfile('index.html');
   });
   
   app.listen(PORT, IP, 

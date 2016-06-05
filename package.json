@@ -1,5 +1,5 @@
 {
-  "name": "BookShelfApp",
+  "name": "meanEs6App",
   "version": "0.0.1",
   "configs": {
     "gulp": "./node_modules/.bin/gulp"
