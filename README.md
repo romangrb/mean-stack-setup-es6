@@ -2,27 +2,27 @@
  
 Project
  
- --app\              (front-end application)
+ --app\..............(front-end application)
  
- --bower_components\ (front-end dependencies)
+ --bower_components\..(front-end dependencies)
  
- --node_modules\     (back-end dependencies)
+ --node_modules\......(back-end dependencies)
  
- --server\           (back-end application)
+ --server\............(back-end application)
  
- --templates\        (back-end templates)
+ --templates\.........(back-end templates)
  
- --app.js            (main app module)
+ --app.js.............(main app module)
  
- --bower.json        (bower package installer)
+ --bower.json.........(bower package installer)
  
- --gulpfile.js       (task manager)
+ --gulpfile.js........(task manager)
  
- --index.html        (main page)
+ --index.html.........(main page)
  
- --package.json      (npm package installer)
+ --package.json.......(npm package installer)
  
- --README.md         (setup instruction)
+ --README.md..........(setup instruction)
   
 Setup based on LINUX 
   
