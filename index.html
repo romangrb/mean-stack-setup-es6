@@ -8,6 +8,7 @@
 </head>
 
 <body>
+  
   <div ng-view></div>
   
   <script src="bower_components/angular/angular.js"></script>
@@ -15,10 +16,9 @@
   <script src="bower_components/traceur/traceur.js"></script>
   
   <script>
-    traceur.options.experimental = true;
     new traceur.WebPageTranscoder(document.location.href).run();
   </script>
-  
+
   <script type="module" src="app/bootstrap.js"></script>
   
 </body>
