@@ -1,28 +1,28 @@
  Project structure
  
 Project
- |
- |--app\              (front-end application)
- |
- |--bower_components\ (front-end dependencies)
- |
- |--node_modules\     (back-end dependencies)
- |
- |--server\           (back-end application)
- |
- |--templates\        (back-end templates)
- |
- |--app.js            (main app module)
- |
- |--bower.json        (bower package installer)
- |
- |--gulpfile.js       (task manager)
- |
- |--index.html        (main page)
- |
- |--package.json      (npm package installer)
- |
- |--README.md         (setup instruction)
+ 
+ --app\              (front-end application)
+ 
+ --bower_components\ (front-end dependencies)
+ 
+ --node_modules\     (back-end dependencies)
+ 
+ --server\           (back-end application)
+ 
+ --templates\        (back-end templates)
+ 
+ --app.js            (main app module)
+ 
+ --bower.json        (bower package installer)
+ 
+ --gulpfile.js       (task manager)
+ 
+ --index.html        (main page)
+ 
+ --package.json      (npm package installer)
+ 
+ --README.md         (setup instruction)
   
 Setup based on LINUX 
   
